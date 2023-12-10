@@ -1,0 +1,79 @@
+.calender-border{
+    width : 55%;
+    font-size: 10px;
+    margin-left : 15%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 5%;
+    margin-top: 12%;;
+}
+
+.calenderheader{
+    display: flex;
+    justify-content: space-between;
+}
+.currbg{
+    background-color: rgb(62, 129, 211);
+    border-radius: 30px;
+    color: white;
+}
+
+.redbg{
+    background-color: red;
+    font-weight: bold;
+    color: black;
+    height : 25px;
+    border : 1px solid rgb(110, 110, 110);
+    border-radius: 30px;
+}
+.day{
+    
+    display : flex;
+    justify-content: space-between;
+}
+.blackcolor{
+    color: black;
+}
+.greycolor{
+    color : rgb(173, 173, 173);
+}
+.week{
+    
+    font-size: 17px;
+     text-align: center;
+    display : grid;
+     grid-template-columns: repeat(7, 1fr);
+     border-bottom: 2px solid rgb(91, 91, 91);
+}
+.weekday{
+}
+.eachDate{
+    height: 14;
+    border-top: 1px solid rgb(223, 220, 220);
+    font-size: 15px;
+}
+.eachDate :hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+}
+.date{
+    display : grid;
+     grid-template-columns: repeat(7, 1fr);
+     text-align: center;
+}
+.navlink{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (max-width : 660px){
+
+    .calender-border{
+        width : 65%;
+        margin-left: 17%;
+    }
+
+}

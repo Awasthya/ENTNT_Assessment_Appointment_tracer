@@ -1,0 +1,78 @@
+
+.cards{
+    height : auto;
+    width : 90%;
+    margin: 5% 0%;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.SeeMore{
+    margin-left: 85%;
+    border: 2px solid green;
+    height : 30px;
+}
+.row{
+    gap:10px;
+}
+.SeeMore{
+    margin-left: 85%;
+    height : 30px;
+    width : 15%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.cards .row {
+    text-decoration:none;
+}
+.heading{
+    font-weight: 700;
+    
+}
+.editButton{
+    margin-top : -3%;
+    margin-left: 97%;
+    width : 20%;
+}
+.cancel{
+    border-radius: 40px;;
+}
+.Update{
+    border-radius: 50%;
+}
+.delete{
+    border-radius: 50%;
+    border : none;
+}
+
+@media screen and (max-width : 1150px){
+
+    .editButton{
+        margin-top : -3%;
+        margin-left: 90%;
+        width : 20%;
+    }
+}
+@media screen and (max-width : 650px){
+    .cards {
+        margin-left: 4%;
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        gap : 10px;
+    }
+    .editButton{
+        margin-top : -3%;
+        margin-left: 85%;
+        width : 20%;
+    }
+}
