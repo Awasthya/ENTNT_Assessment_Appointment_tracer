@@ -80,8 +80,15 @@ To deploy this project run
   npm start
 ```
 
+paste you MongoDb database URI on on config.env file and then you are reasdy to go I will automatically create all the require schema's. into you database.
+
 I completed this project in less than 72 hours. 
+
 ### Feature can we implemented if given more time 
+
+1. for better utilaization of project we can implement login/ and register feature's as well so that diffrent user can use that to track appointments.
+
+2. Also can create profile picture on each client.
 
 Feel free to explore and enjoy the Appointment Tracker!
 
