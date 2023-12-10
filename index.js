@@ -13,7 +13,7 @@ app.use(router);
 app.use(express.static(path.join(__dirname, './FrontEnd/build')));
 
 app.get('*',function(req,res)  {
-        res.sendFile(path.join(__dirname, './client/build/index.html'))
+        res.sendFile(path.join(__dirname, './FrontEnd/build/index.html'))
 })
 
 //listen Port 
