@@ -3,9 +3,9 @@
 
 This Project Is an Assesment Given by ENTNT on Appointment Tracker. which is used for tracking appointment's. It is full stack project which used MongoDb for storing Appointment. and accesses that using REST api's.
 
-Technologies Used\
+Technologies Used
 ### Frontend:
- React.js, HTML, CSS\
+ React.js, HTML, CSS
 ### Backend:
  Node.js
 
